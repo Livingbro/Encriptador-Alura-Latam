@@ -504,7 +504,7 @@
       height: 20%;
     }
   
-    #mensaje {
+    #mensaje, #resultado {
       font-size: 3vw;
     }
   
