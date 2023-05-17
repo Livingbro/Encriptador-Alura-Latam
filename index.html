@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Oracle/AluraLatam.</title>
+
+</head>
+
+<body>
+  <header>
+    <h1>Encriptador AluraLatam</h1>
+  </header>
+
+
+  <main>
+
+    <!-- //lineas colores// -->
+    <div class="lines">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <!-- //// -->
+
+
+    <div class="contenedor">
+      <div class="contenedor-girar">
+        <div>
+          <button id="girar" class="boton-girar" type="text" onclick="girar()">Girar!</button>
+        </div>
+        <div>
+          <button id="limpiar" class="boton-limpiar" onclick="limpiar()">🧹</button>
+        </div>
+      </div>
+
+      <!-- //// -->
+      <div class="contenedor-tarjetas">
+        <div class="flip-card" id="flip-card">
+          <div class="tarjeta-frente">
+            <textarea id="mensaje" oninput="autoResize()" ; type="text" class="mensaje"
+              placeholder="Ingrese aqui su clave"></textarea>
+          </div>
+
+          <div class="tarjeta-atras">
+            <textarea id="resultado" rows="5" readonly></textarea>
+          </div>
+
+        </div>
+      </div>
+      <!-- //// -->
+
+      <!-- //// -->
+      <div class="contenedor-botones">
+        <div class="flip-button" id="flip-button">
+          <div class="boton-frente">
+            <button class="boton-encriptar" type="text" onclick="encriptarMensaje()">Encriptar!</button>
+            <button class="boton-desencriptar" onclick="desencriptarMensaje()">Desencriptar!</button>
+          </div>
+
+          <div class="boton-atras">
+            <button class="boton-copiar" onclick="copiar()">Copiar!</button>
+          </div>
+        </div>
+      </div>
+      <!-- //// -->
+
+
+      <!-- //// -->
+      <div class="contenedor-info">
+        <button class="boton-info" id="boton-info">Info</button>
+        <div id="popupContainer" class="popupContainer">
+          <div id="popupContent" class="popupContent">
+            <span id="popupText"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //// -->
+
+  </main>
+
+
+  <footer>
+    <div class="redes">
+      <div class="icon">
+        <p>© Jonathan C. 05/2023</p>
+        <img class="link" src="./images/linkedin.png"
+          onclick="window.open('https://linkedin.com/in/thelivingbro', '_blank')">
+        <img class="link" src="./images/github.png" onclick="window.open('https://github.com/Livingbro/', '_blank')">
+      </div>
+    </div>
+  </footer>
+<script src="./script.js"></script>
+</body>
+
+</html>
