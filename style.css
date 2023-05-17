@@ -493,7 +493,7 @@
   @media (max-width: 480px) {
   
     header {
-      font-size: 1.3rem;
+      font-size: 1.5rem;
     }
   
     .contenedor-tarjetas {
@@ -535,6 +535,10 @@
       font-size: 5vw;
       top: 1%;
     }
+      
+    .popupContent {
+        font-size: 1.2rem;
+  }
   
     .contenedor-botones {
       position: absolute;
