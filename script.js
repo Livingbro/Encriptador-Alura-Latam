@@ -13,7 +13,7 @@ function autoResize() {
     popupText.textContent = "La clave es la palabra o mensaje que deseas procesar." +
       "\n\n" +
       "Instrucciones:\n\n" +
-      "1.- Escribe o pega el mensaje a Encriptar/Desencriptar en el área de texto.\n" +
+      "1.- Escribe o pega el mensaje en el área de texto.\n" +
       "2.- Presiona el botón 'Encriptar' o 'Desencriptar'.\n" +
       "3.- El mensaje aparecerá en la parte trasera de la tarjeta.\n" +
       "4.- Puedes copiar el mensaje con su botón.\n" +
