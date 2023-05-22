@@ -17,7 +17,7 @@ function autoResize() {
       "2.- Presiona el botón 'Encriptar' o 'Desencriptar'.\n" +
       "3.- El mensaje aparecerá en la parte trasera de la tarjeta.\n" +
       "4.- Puedes copiar el mensaje con su botón.\n" +
-      "		La tarjeta volverá a su posición original, donde podrás escribir un nuevo mensaje o pegar el mensaje copiado anteriormente.\n" +
+      "La tarjeta volverá a su posición original, donde podrás escribir un nuevo mensaje o pegar el mensaje copiado anteriormente.\n" +
       "5.- El botón 'Girar!' voltea la tarjeta sin eliminar ningún texto.\n" +
       "6.- El icono de limpieza gira la tarjeta a su posición original y limpia todo texto."
   
