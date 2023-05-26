@@ -114,13 +114,13 @@ function autoResize() {
     card.style.transform = "perspective(800px) rotateY(0deg)";
   
     if (document.getElementById("resultado").value) {
-      // select the content of the resultado textarea
+      // selecciona resultado del textarea
       document.getElementById("resultado").select();
       document.getElementById("resultado").setSelectionRange(0, 99999);
-      // copy the selected content to the clipboard
+      // copia el mensaje al portapapeles
       document.execCommand("copy");
   
-      // show a "Mensaje copiado" message
+      // pop up mensaje copiado.
       const copiado = document.createElement("div");
       copiado.textContent = "Mensaje Copiado";
       copiado.style.position = "fixed";
@@ -139,7 +139,7 @@ function autoResize() {
         copiado.parentNode.removeChild(copiado);
       }, 1000);
   
-      // clear the content of the resultado textarea
+      // elimina contenido de ambos lados de la tarjeta
       document.getElementById("mensaje").value = "";
       document.getElementById("resultado").value = "";
     }
